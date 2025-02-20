@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>myapp2</artifactId>
+    <artifactId>myapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>myapp2</name>
-    <description>myapp2</description>
+    <name>myapp</name>
+    <description>myapp</description>
     <url/>
     <licenses>
         <license/>
@@ -35,18 +35,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
 
-        </dependency>
-
-        <!-- ADD SUPPORT FOR SPRING BOOT ACTUATOR -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <!-- ADD SUPPORT FOR SPRING BOOT SECURITY -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
         <dependency>
